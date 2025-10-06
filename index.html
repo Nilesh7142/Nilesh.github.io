@@ -6,32 +6,49 @@
     <title>Nilesh Kumar | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
     <div class="portfolio-container">
-        <header class="header">
-            <div class="header-content">
-                <h1>Nilesh Kumar</h1>
-                <div class="contact-info">
-                    <span><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan, 303807</span>
-                    <span><i class="fas fa-phone"></i> +91 9835460476</span>
-                    <span><i class="fas fa-envelope"></i> nk7142939@gmail.com</span>
-                    <span><a href="https://linkedin.com/in/nilesh-kumar-353b1926a" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></span>
-                    <span><a href="https://github.com/Nilesh7142" target="_blank"><i class="fab fa-github"></i> GitHub</a></span>
+        <nav>
+            <div class="nav-links">
+                <a href="#about">Personal Info</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Get In Touch</a>
+            </div>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/nilesh-kumar-353b1926a" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Nilesh7142" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Nilesh Kumar</h1>
+                    <p class="intro-text">
+                        A motivated B.Tech Computer Science student with hands-on experience in C and Python programming. I enjoy working in fast-paced, collaborative environments and take pride in being a quick learner who is always looking to grow.
+                    </p>
+                </div>
+                <div class="hero-image">
+                      <img src="Nilesh Kumar.jpeg" alt="Nilesh Kumar Profile Picture">
                 </div>
             </div>
         </header>
-
         <main>
-            <section class="card">
-                <h2><i class="fas fa-user-circle"></i> Summary</h2>
-                <p>I’m a motivated B.Tech Computer Science student with hands-on experience in C and Python programming. I enjoy working in fast-paced, collaborative environments and take pride in being a quick learner who is always looking to grow. Whether working independently or as part of a team, I bring energy, focus, and a commitment to delivering results.</p>
+            <section class="card" id="about">
+                <h2>Personal Info</h2>
+                 <ul>
+                            <li><strong>Father's Name:</strong>Mitrajit Mahto</li>
+                            <li><strong>Date of Birth:</strong> 20-Oct-2004</li>
+                            <li><strong>Nationality:</strong> Indian</li>
+                            <li><strong>Hobbies:</strong> Coding, Editing</li>
+                        </ul>
             </section>
 
-            <section class="card">
-                <h2><i class="fas fa-cogs"></i> Skills</h2>
+            <section class="card" id="skills">
+                <h2>Skills</h2>
                 <div class="skills-grid">
                     <span class="skill-tag">Python</span>
                     <span class="skill-tag">C</span>
@@ -44,8 +61,8 @@
                 </div>
             </section>
 
-            <section class="card">
-                <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+            <section class="card" id="projects">
+                <h2>Projects</h2>
                 <div class="project-item">
                     <h3>Student Management System</h3>
                     <p>Built a system to manage student registration, courses, and performance records with easy add/update features, improving data organization and accessibility.</p>
@@ -60,24 +77,24 @@
                 </div>
             </section>
 
-            <section class="card">
-                <h2><i class="fas fa-briefcase"></i> Experience</h2>
+            <section class="card" id="experience">
+                <h2>Experience</h2>
                 <div class="experience-item">
                     <h3>Team Leader - Voting System Using Blockchain</h3>
                     <ul>
-                        <li>Led a team to design and implement a secure, transparent electronic voting system using blockchain technology.</li>
+                        <li>Lead a team to design and implement a secure, transparent electronic voting system using blockchain technology.</li>
                         <li>Managed project lifecycle including task allocation, coordination, and testing to ensure timely and reliable delivery.</li>
                     </ul>
                 </div>
             </section>
 
-            <section class="card">
-                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            <section class="card" id="education">
+                <h2>Education</h2>
                 <div class="education-item">
                     <h3>B.Tech in Computer Science (CGPA: 7.81)</h3>
                     <p>University of Engineering and Management, Jaipur, Rajasthan</p>
                 </div>
-                <div class="education-item">
+                 <div class="education-item">
                     <h3>12th Grade (CGPA: 7.3)</h3>
                     <p>Saraswati Shishu Mandir, Shyamdih, Katras, Jharkhand</p>
                 </div>
@@ -86,10 +103,9 @@
                     <p>Saraswati Shishu Mandir, Shyamdih, Katras, Jharkhand</p>
                 </div>
             </section>
-            
             <div class="grid-container">
                 <section class="card">
-                    <h2><i class="fas fa-certificate"></i> Certifications</h2>
+                    <h2>Certifications</h2>
                     <ul>
                         <li>Software Conceptual Design (NPTEL)</li>
                         <li>Google Cloud Computing Foundations (NPTEL)</li>
@@ -99,7 +115,7 @@
                 </section>
 
                 <section class="card">
-                    <h2><i class="fas fa-award"></i> Awards</h2>
+                    <h2>Awards</h2>
                     <ul>
                         <li>Campus Techfest 3rd Place (1 time)</li>
                         <li>Hackathons Participation (2 times)</li>
@@ -107,19 +123,31 @@
                 </section>
 
                 <section class="card">
-                    <h2><i class="fas fa-language"></i> Languages</h2>
+                    <h2>Languages</h2>
                     <ul>
                         <li>Hindi - Advanced</li>
                         <li>English - Intermediate</li>
                     </ul>
                 </section>
             </div>
-             <section class="card">
-                 <h2><i class="fas fa-info-circle"></i> Personal Details</h2>
-                 <ul>
-                    <li><strong>Father's Name:</strong> Mitrajit Mahto</li>
-                    <li><strong>Date of Birth:</strong> 20-Oct-2004</li>
-                    <li><strong>Gender:</strong> Male</li>
-                    <li><strong>Marital Status:</strong> Single</li>
-                    <li><strong>Nationality:</strong> Indian</li>
-                    <li><strong>Hobbies:</strong> Coding,Editing
+            
+            <section class="card" id="contact">
+                <h2>Get In Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-details">
+                        <h3>Contact Info</h3>
+                        <p><i class="fas fa-envelope"></i> nk7142939@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +91 9835460476</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan, 303807</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Nilesh Kumar. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
