@@ -5,7 +5,7 @@ This repository contains the source code for my personal portfolio website. It i
 ## 🚀 Live Site
 
 You can view the live version of the portfolio here:
-**[https://Nilesh.github.io](https://Nilesh7142.github.io)**
+**[https://Nilesh7142.github.io](https://Nilesh7142.github.io)**
 
 ## ✨ Features
 
