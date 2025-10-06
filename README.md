@@ -1,6 +1,6 @@
 # Nilesh Kumar - Personal Portfolio
 
-This repository contains the source code for my personal portfolio website. It is a clean, responsive, and modern biodata page built with HTML and CSS.
+This repository contains the source code for my personal portfolio website. It is a clean, responsive, and modern biodata page built with HTML, CSS, JavaScript.
 
 ## 🚀 Live Site
 
@@ -17,4 +17,5 @@ You can view the live version of the portfolio here:
 
 - **HTML5:** For the structure and content of the website.
 - **CSS3:** For styling and creating a responsive layout.
+- **JavaScript** For Smooth Scrolling and Active Link Highlighting.
 - **GitHub Pages:** For hosting the live website.
