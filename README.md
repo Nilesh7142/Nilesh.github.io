@@ -10,7 +10,7 @@ You can view the live version of the portfolio here:
 ## ✨ Features
 
 - **Responsive Design:** Looks great on desktops, tablets, and mobile devices.
-- **Clean Code:** Simple and easy-to-understand HTML and CSS.
+- **Clean Code:** Simple and easy-to-understand HTML, CSS, JavaScript.
 - **Professional Layout:** Showcases my skills, projects, and experience in a clear format.
 
 ## 🛠️ Technologies Used
