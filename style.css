@@ -429,3 +429,22 @@ footer {
         padding: 8px 15px;
     }
 }
+/* --- Added for JavaScript Interactivity --- */
+
+/* Style for the active navigation link */
+.nav-links a.active {
+    color: #5cdb61; /* Green accent color */
+    font-weight: 600;
+}
+
+/* Styles for the fade-in on scroll animation */
+.card {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
